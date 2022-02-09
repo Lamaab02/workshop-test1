@@ -1,54 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Test</title>
-    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/applab.css"></link>
+    <!-- tailwinds -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- bootstrap #3 for content slider -->
+    
+    <title>AppLab</title>
 </head>
 <body>
-    <div class ="wrapper">
-        <header>
-            <img src="img/applab.png">
-            <h1>App Lab</h1>
-        </header>
-        <div class="content">
-            <h2>About AppLab</h2>
-            <p>
-                The App Lab is where UNC students can learn how to build web and mobile applications, run by UNC Computer Science Professor of the Practice Dr. Jeff Terrell. It’s in Room 027 of Sitterson Hall, and it’s open weekday afternoons. You can view the full schedule. You can learn more about the App Lab.
-            </p>
-            <h2>
-                App Lab recent Events
-            </h2>
-            <ol>
-                <li>App-a-thon</li>
-                <li>UI/UX workshop</li>
-                <li>API workshop</li>
-                <li>React workshop</li>
-            </ol>
-            <img class = "big-image" src = "img/bigimage.jpg">
-            <p class="caption">
-                you can find us @ SN 027
-            </p>
-            <h2>
-                Useful links
-            </h2>
-            <ul>
-                <li>
-                    <a href="https://applab.unc.edu/app-a-thon/" target="_blank" title="learn more about appathon">App-a-thon (spring 2022)</a>
-                </li>
-                <li>
-                    <a href="https://applab.unc.edu/newsletter-sign-up/" target="_blank" title="Sign up for our newsletter">Newsletter</a>
-                </li>
-                <li><a href="https://applab.unc.edu/get-involved/" target="_blank" title="get involved with applab">Get Involved</a></li>
-            </ul>
+    <header>
+        <img src="img/applablogo.png">
+    </header>
+    <div class="sticky top-0">
+        <div class="border-b border-gray-300">
+            <div class="container mx-auto flex items-center">
+                <img src="img/applab.png" width=15%>
+            
+                <nav>
+                    <ul class="flex mx-96 text-gray-400">
+                        <li>
+                            <a href="https://applab.unc.edu/" target="_blank" title="Home"
+                            class="py-2 px-5 ml-48 mr-10 rounded-md
+                            hover:bg-blue-400
+                            active bg-blue-300 text-white"
+                            >Home</a>
+                        </li>
+                        <li>
+                            <a href="https://applab.unc.edu/calendar/" target="_blank" title="Hours"
+                            class="py-2 px-5 m-10 hover:bg-gray-200 hover:text-gray-600 rounded-md">Hours</a>
+                        </li>
+                        <li>
+                            <a href="https://applab.unc.edu/about/" target="_blank" title="About"
+                            class="py-2 px-5 m-10 hover:bg-gray-200 hover:text-gray-600 rounded-md">About</a>
+                        </li>
+                        <li>
+                            <a href="https://applab.unc.edu/blog/" target="_blank" title="Blog"
+                            class="py-2 px-5 ml-10 mr-0  hover:bg-gray-200 hover:text-gray-600 rounded-md">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
         </div>
-        <footer>
-            <ul>
-                <li>Made by Lia</li>
-                <li>Made to test workshop skills</li>
-                <li>&copy; 2022</li>
-            </ul>
-
-        </footer>
+        </div>
     </div>
+    <div class="content py-20 px-20">
+        <div class="container mx-auto  items-center">
+            <h1 class="text-4xl text-transparent
+            bg-clip-text bg-gradient-to-r from-green-400 to-purple-400 block text-center">The UNC App Lab</h1>
+            <p class="text-base text-gray-500 text-center max-w-4xl mx-auto text-justify py-10">
+                The App Lab is where UNC students can learn how to build web and mobile applications, run by UNC Computer Science Professor of the Practice Dr. Jeff Terrell. It’s in Room 027 of Sitterson Hall, and it’s open weekday afternoons. You can view the full <a href="https://applab.unc.edu/calendar/" target="_blank" title="sched">schedule</a>. You can learn more <a href="https://applab.unc.edu/about/" title="about" target="_blank">about</a> the App Lab.<br><br>
+
+                Are you a student interested in participating in the App Lab and learning web and mobile app development? You can learn how to get involved.<br> <br>
+
+                Do you have a need for an app (or any other questions about software)? Come to the App Lab and talk to our experienced staff.
+            </p>
+        </div>
+
+    </div>
+    <div class="content2 pb-20 px-20">
+        <div class="container mx-auto  items-center justify-between relative">
+            <h1 class="text-4xl relative text-transparent
+            bg-clip-text bg-gradient-to-r from-green-400 to-purple-400 block text-center">App Lab Recent Events</h1>
+            <img src="img/Group 1.jpg" class="max-w-4xl mx-auto text-justify py-10">
+            <a href="https://applab.unc.edu/app-a-thon/" class="py-2 px-5 rounded-md
+            hover:bg-blue-400
+            active bg-blue-300 text-white">Learn more</a>
+        </div>
+
+    </div>
+    <img style="float: right;" src="img/main applab.png" class="w-1/5 mx-52">
+
+    <div style="clear: right;" class="parent flex">
+        <div class="child flex-1">
+            <div>
+                <div class="content3 pb-20 pl-64">
+                    <div class="container mx-auto  items-center justify-between relative">
+                        <h1 class="text-3xl relative text-transparent
+                        bg-clip-text bg-gradient-to-r from-blue-200 to-blue-400 block text-left font-medium mb-5">Connect with us</h1>
+                        <ul class="flex">
+                            <li><a  href="https://app.slack.com/client/TCR46M8TG" target="_blank"><img src="img/slack.svg" class="w-6 py-1"></a></li>
+                            <li><h2 class="px-4 py-1.5 text-gray-500 text-base">Join our slack channle</h2></li>
+                        </ul>
+                        
+                    </div>
+                    
+            
+                </div>
+            </div>
+        </div>
+        <div class="child flex-1">
+            <div>
+                <div class="content4 pb-20 pl-64">
+                    <div class="container mx-auto  items-center justify-between relative">
+                        <ul>
+                            <li>
+                                <ul class="flex py-5">
+                                    <li><img src="img/location-arrow-solid 1.png" class="w-6 "></li>
+                                    <li><h2 class="px-4 text-gray-500 text-base">sitterson hall unc SN 027</h2></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="flex">
+                                    <li><img src="img/envelope-regular 1.png" class="w-6 "></li>
+                                    <li><h2 class="px-4 text-gray-500 text-base">applab@email.unc.edu</h2></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <footer class="text-center">
+        <h4 class="text-white py-3">&copy; copy rights reserved for UNC AppLab 2022</h4>
+    </footer>
 </body>
 </html>

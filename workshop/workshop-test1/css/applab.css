@@ -1,0 +1,37 @@
+header {
+  background-color: #8aadd5;
+  height: 250px;
+  padding: 40px;
+  margin: 0px;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 49px;
+  width: 10%;
+}
+.sticky {
+  background-color: white;
+  position: sticky;
+  min-width: 100%;
+  z-index: 2;
+}
+
+.container p a {
+  color: #8aadd5;
+}
+
+.content2 a {
+  position: absolute;
+  top: 71%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: #8aadd5;
+  height: 50px;
+}
